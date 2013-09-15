@@ -1,0 +1,8 @@
+{
+  "name": "teicloud",
+  "version": "1.0.0",
+  "description": "Tag Cloud Generator from TEI files",
+  "repository": "http://github.com/filosunam/teicloud",
+  "author": "Marco Godínez <markotom@gmail.com>",
+  "license": "MIT"
+}

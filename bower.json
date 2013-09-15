@@ -1,0 +1,16 @@
+{
+  "name": "teicloud",
+  "version": "1.0.0",
+  "authors": [
+    "Marco Godínez <markotom@gmail.com>"
+  ],
+  "description": "Tag Cloud Generator from TEI files",
+  "main": "js/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "d3": "~3.3.3",
+    "d3cloud": "~1.0.1",
+    "underscore": "~1.5.2"
+  }
+}

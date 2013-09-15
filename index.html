@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de nube de palabras</title>
+  <script data-main="js/main" src="components/requirejs/require.js"></script>
+  <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
+  <style type="text/css">
+    html, body { height: 100%; }
+    #wrap {
+      min-height: 100%;
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto -60px;
+      padding: 0 0 60px;
+    }
+    .container {
+      padding: 20px 0;
+    }
+    #footer {
+      height: 60px;
+      background-color: #f5f5f5;
+    }
+    #cloud text { font-family: "Impact"; }
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <div class="container">
+
+        <div class="col-md-12">
+          <h1 class="muted">Generador de nube de palabras</h1>
+
+          <hr>
+
+          <div class="well well-lg">
+            <form action="#" class="form-horizontal">
+              <div class="form-group">
+                <label for="files" class="col-sm-3 control-label">Seleccionar archivo:</label>
+                <div class="col-sm-9">
+                  <input class="input-sm" type="file" id="file">
+                </div>
+              </div>
+            </form>
+            <hr>
+
+            Con esta herramienta puedes generar nubes de palabras (tag cloud) de tus archivos TEI/XML, a partir de la
+            etiqueta <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-term.html">&lt;term&gt;</a>.
+            Para saber más al respecto sobre el marcado de texto, puedes revisar las directrices de 
+            <a href="http://www.tei-c.org/release/doc/tei-p5-doc/es/html">Text Encoding Initiative</a>.
+
+          </div>
+
+          <!-- Cloudy -->
+          <div id="cloud"></div>
+
+          <div class="alert alert-danger hide">
+            No se encontraron palabras para crear la visualización
+          </div>
+
+        </div>
+
+    </div>
+  </div>
+  
+  <div id="footer">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="pull-left">
+          Por <a href="http://twitter.com/Markotom">Marco Godínez</a>
+        </div>
+
+        <div class="pull-right">
+          <a href="http://github.com/filosunam/teicloud">Source</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

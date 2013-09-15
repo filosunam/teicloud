@@ -11,6 +11,7 @@
     "bootstrap": "~3.0.0",
     "d3": "~3.3.3",
     "d3cloud": "~1.0.1",
-    "underscore": "~1.5.2"
+    "underscore": "~1.5.2",
+    "requirejs": "~2.1.8"
   }
 }
